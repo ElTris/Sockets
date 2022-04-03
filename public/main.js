@@ -1,4 +1,4 @@
-const socket_rec = io("http://localhost:3000/");
+const socket_rec = io("https://simple-sockss.herokuapp.com/");
 
 const form = document.querySelector("#formulario");
 const messages_list = document.querySelector("#message_list");
